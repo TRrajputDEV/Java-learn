@@ -6,7 +6,7 @@ public class Student {
         this.roll_no = roll_no;
         this.name = name;
     }
-
+    @Override
     public String toString(){
         return roll_no + " "  + name;
     }
