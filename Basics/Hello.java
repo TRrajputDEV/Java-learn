@@ -1,3 +1,4 @@
+package Basics;
 public class Hello {
 
     public void func(){

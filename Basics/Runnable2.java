@@ -1,3 +1,4 @@
+package Basics;
 public class Runnable2 {
     public static void main(String[] args) {
         Thread t1  = new Thread( new InnerRunnable("Tushar Tanwar "));

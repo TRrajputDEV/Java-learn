@@ -1,3 +1,4 @@
+package Basics;
 class Student {
 
     public Student(){}

@@ -1,4 +1,4 @@
-
+package Basics;
 public class MyFirstThread {
     public static void main(String[] args) {
         InnerMyFirstThread t1 = new InnerMyFirstThread();

@@ -1,3 +1,4 @@
+package Basics;
 public class Student {
     public int roll_no;
     public String name;
