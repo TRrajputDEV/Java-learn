@@ -1,3 +1,5 @@
+import java.util.concurrent.atomic.AtomicInteger;
+
 public class Race_Condition {
     public static void main(String[] args) throws InterruptedException {
         InnerRace_Condition c = new InnerRace_Condition();
@@ -28,9 +30,10 @@ public class Race_Condition {
 
 // Simple helper class to resolve reference from main
 class InnerRace_Condition {
-    int count = 0;
+    AtomicInteger count = new AtomicInteger(0);
+
     
     public void increment(){
-        count++;
+        count.getAndIncrement();
     }
 }
